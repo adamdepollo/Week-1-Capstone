@@ -56,8 +56,6 @@ public class Week1Capstone {
 	// Create a method to check for special characters for each item in
 	// StringBuilder[]
 	public static boolean checkSpecialChars(StringBuilder userEntry) {
-		// Loop through each item in the array
-		// for (int i = 0; i < testArray.length; i++) {
 		// Determine whether the item is punctuation (i.e., only 1 character)
 		if (userEntry.length() > 1) {
 			// If not, loop through each character in each item
